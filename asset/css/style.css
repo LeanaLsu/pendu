@@ -1,0 +1,26 @@
+body {
+    height: 100%;
+    background-color: rgb(117, 146, 132);
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+.container {
+    width: 70%;
+}
+
+.visibility {
+    visibility: 'hidden';
+}
+
+@media only screen and (max-width: 700px){
+    .container {
+        width: 100%;
+    }
+
+    .button-position {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}; 
